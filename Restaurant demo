@@ -30,7 +30,7 @@
     --nav-h:       72px;
     --transition:  0.35s cubic-bezier(0.4,0,0.2,1);
   }
-
+ 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; font-size: 16px; }
   body {
@@ -42,7 +42,7 @@
   img { display: block; max-width: 100%; }
   a { text-decoration: none; color: inherit; }
   ul { list-style: none; }
-
+ 
   /* ══════════════════════════════════════
      UTILITY
   ══════════════════════════════════════ */
@@ -81,7 +81,7 @@
   }
   .text-center { text-align: center; }
   .text-center .section-sub { margin: 0 auto; }
-
+ 
   /* ══════════════════════════════════════
      BUTTONS
   ══════════════════════════════════════ */
@@ -129,7 +129,7 @@
     color: var(--white);
     transform: translateY(-2px);
   }
-
+ 
   /* ══════════════════════════════════════
      NAVBAR
   ══════════════════════════════════════ */
@@ -200,7 +200,7 @@
     color: var(--saffron-dk);
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
   }
-
+ 
   /* Hamburger */
   .hamburger {
     display: none;
@@ -223,7 +223,7 @@
   .hamburger.open span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
   .hamburger.open span:nth-child(2) { opacity: 0; }
   .hamburger.open span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
-
+ 
   /* Mobile nav */
   .mobile-nav {
     position: fixed;
@@ -249,7 +249,7 @@
   }
   .mobile-nav a:last-child { border-bottom: none; }
   .mobile-nav .btn { width: 100%; justify-content: center; }
-
+ 
   /* ══════════════════════════════════════
      HERO
   ══════════════════════════════════════ */
@@ -362,7 +362,7 @@
     animation: scrollDrop 1.5s ease infinite;
   }
   @keyframes scrollDrop { 0%{height:0;opacity:0} 50%{height:40px;opacity:1} 100%{height:0;opacity:0} }
-
+ 
   /* ══════════════════════════════════════
      ABOUT / FEATURES
   ══════════════════════════════════════ */
@@ -461,7 +461,7 @@
     letter-spacing: 0.1em;
     font-weight: 500;
   }
-
+ 
   /* ══════════════════════════════════════
      MENU SECTION
   ══════════════════════════════════════ */
@@ -592,7 +592,7 @@
     color: var(--text-muted);
     margin-top: 4px;
   }
-
+ 
   /* ══════════════════════════════════════
      TESTIMONIALS
   ══════════════════════════════════════ */
@@ -665,7 +665,7 @@
   }
   .testi-name { font-weight: 700; font-size: 0.95rem; color: var(--white); }
   .testi-role { font-size: 0.78rem; color: rgba(255,255,255,0.4); }
-
+ 
   /* ══════════════════════════════════════
      CONTACT
   ══════════════════════════════════════ */
@@ -780,7 +780,7 @@
     flex-shrink: 0;
   }
   .reserve-card .btn:hover { background: var(--cream); transform: translateY(-2px); }
-
+ 
   /* ══════════════════════════════════════
      FOOTER
   ══════════════════════════════════════ */
@@ -861,7 +861,7 @@
     transition: var(--transition);
   }
   .footer-links a:hover { color: var(--saffron); }
-
+ 
   /* ══════════════════════════════════════
      SCROLL ANIMATIONS
   ══════════════════════════════════════ */
@@ -879,12 +879,12 @@
   .fade-up.delay-3 { transition-delay: 0.3s; }
   .fade-up.delay-4 { transition-delay: 0.4s; }
   .fade-up.delay-5 { transition-delay: 0.5s; }
-
+ 
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(24px); }
     to   { opacity: 1; transform: translateY(0); }
   }
-
+ 
   /* ══════════════════════════════════════
      RESPONSIVE
   ══════════════════════════════════════ */
@@ -909,7 +909,7 @@
 </style>
 </head>
 <body>
-
+ 
 <!-- ═══════════════════════════
      NAVBAR
 ══════════════════════════════ -->
@@ -928,7 +928,7 @@
     </button>
   </div>
 </nav>
-
+ 
 <!-- Mobile Nav -->
 <div class="mobile-nav" id="mobileNav">
   <a href="#about" class="mobile-link">Our Story</a>
@@ -937,7 +937,7 @@
   <a href="#contact" class="mobile-link">Contact</a>
   <a href="#contact" class="btn btn-primary">Reserve a Table</a>
 </div>
-
+ 
 <!-- ═══════════════════════════
      HERO
 ══════════════════════════════ -->
@@ -965,7 +965,7 @@
     <span>Scroll</span>
   </div>
 </section>
-
+ 
 <!-- ═══════════════════════════
      ABOUT / FEATURES
 ══════════════════════════════ -->
@@ -1019,7 +1019,7 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- ═══════════════════════════
      MENU
 ══════════════════════════════ -->
@@ -1038,7 +1038,7 @@
       </div>
     </div>
     <div class="menu-grid">
-
+ 
       <div class="menu-card fade-up delay-1">
         <div class="menu-card-img">🍛<div class="menu-badge">⭐ Bestseller</div></div>
         <div class="menu-card-body">
@@ -1051,7 +1051,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="menu-card fade-up delay-2">
         <div class="menu-card-img">🥩</div>
         <div class="menu-card-body">
@@ -1064,7 +1064,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="menu-card fade-up delay-3">
         <div class="menu-card-img">🌱<div class="menu-badge">Vegetarian</div></div>
         <div class="menu-card-body">
@@ -1077,7 +1077,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="menu-card fade-up delay-1">
         <div class="menu-card-img">🍤</div>
         <div class="menu-card-body">
@@ -1090,7 +1090,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="menu-card fade-up delay-2">
         <div class="menu-card-img">🥛</div>
         <div class="menu-card-body">
@@ -1103,7 +1103,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="menu-card fade-up delay-3">
         <div class="menu-card-img">🍮<div class="menu-badge">New</div></div>
         <div class="menu-card-body">
@@ -1116,11 +1116,11 @@
           </div>
         </div>
       </div>
-
+ 
     </div>
   </div>
 </section>
-
+ 
 <!-- ═══════════════════════════
      TESTIMONIALS
 ══════════════════════════════ -->
@@ -1132,7 +1132,7 @@
       <p class="section-sub">Real people, real bowls, real feelings.</p>
     </div>
     <div class="testi-grid">
-
+ 
       <div class="testi-card fade-up delay-1">
         <div class="testi-quote-icon">"</div>
         <div class="testi-stars">★★★★★</div>
@@ -1145,7 +1145,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="testi-card fade-up delay-2">
         <div class="testi-quote-icon">"</div>
         <div class="testi-stars">★★★★★</div>
@@ -1158,7 +1158,7 @@
           </div>
         </div>
       </div>
-
+ 
       <div class="testi-card fade-up delay-3">
         <div class="testi-quote-icon">"</div>
         <div class="testi-stars">★★★★★</div>
@@ -1171,11 +1171,11 @@
           </div>
         </div>
       </div>
-
+ 
     </div>
   </div>
 </section>
-
+ 
 <!-- ═══════════════════════════
      CONTACT
 ══════════════════════════════ -->
@@ -1188,7 +1188,7 @@
     </div>
     <div class="contact-grid">
       <div class="contact-info">
-
+ 
         <div class="contact-item fade-up delay-1">
           <div class="contact-icon">📍</div>
           <div>
@@ -1196,7 +1196,7 @@
             <div class="contact-detail-val">1845 E Whitestone Blvd, Suite 102<br/>Cedar Park, TX 78613</div>
           </div>
         </div>
-
+ 
         <div class="contact-item fade-up delay-2">
           <div class="contact-icon">📞</div>
           <div>
@@ -1204,7 +1204,7 @@
             <div class="contact-detail-val">(512) 456-7890</div>
           </div>
         </div>
-
+ 
         <div class="contact-item fade-up delay-3">
           <div class="contact-icon">📧</div>
           <div>
@@ -1212,7 +1212,7 @@
             <div class="contact-detail-val">hello@biryanibowl.com</div>
           </div>
         </div>
-
+ 
         <div class="contact-item fade-up delay-4">
           <div class="contact-icon">🕐</div>
           <div style="width:100%;">
@@ -1225,9 +1225,9 @@
             </table>
           </div>
         </div>
-
+ 
       </div>
-
+ 
       <div class="contact-map fade-up delay-2">
         <div class="map-frame">
           <div class="map-grid-lines"></div>
@@ -1250,7 +1250,7 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- ═══════════════════════════
      FOOTER
 ══════════════════════════════ -->
@@ -1286,7 +1286,7 @@
     </div>
   </div>
 </footer>
-
+ 
 <!-- ═══════════════════════════
      JAVASCRIPT
 ══════════════════════════════ -->
@@ -1296,7 +1296,7 @@
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 40);
   });
-
+ 
   // Hamburger
   const hamburger = document.getElementById('hamburger');
   const mobileNav = document.getElementById('mobileNav');
@@ -1310,7 +1310,7 @@
       mobileNav.classList.remove('open');
     });
   });
-
+ 
   // Scroll animations
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => {
@@ -1318,7 +1318,7 @@
     });
   }, { threshold: 0.12 });
   document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
-
+ 
   // Menu tabs (visual only)
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1326,7 +1326,7 @@
       btn.classList.add('active');
     });
   });
-
+ 
   // Add-to-cart button micro-interaction
   document.querySelectorAll('.add-btn').forEach(btn => {
     btn.addEventListener('click', function() {
